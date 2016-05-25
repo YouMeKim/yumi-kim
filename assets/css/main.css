@@ -1,5 +1,106 @@
 body {
-	margin: 0px;
-	padding: 0px;
-	font-family: "Muli",sans-serif;
+    margin: 70px 0px 0px 0px;
+    padding: 0px;
+    font-family: "Muli",sans-serif;
+    background-color: #fafafa;
+    background-image: url('../img/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+    padding: 10px 0px;
+}
+#wrapper {
+
+}
+#footer {
+    padding: 50px 0px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: rgba(0,0,0,0.6);
+    background-color: #fafafa;
+}
+.icon {
+    color: rgba(0,0,0,0.5);
+}
+
+/**************/
+/* NAV STYLES */
+/**************/
+
+#logo-wrapper {
+    height: 50px;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav {
+    margin:0;
+    padding:16px 0px;
+    font-size: 14px;
+    font-weight: 800;
+}
+#nav li {
+    display:inline;
+    padding:0px;
+    margin:0px;
+}
+#nav li a {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    padding: 20px 15px;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+#nav li a:hover {
+    color: #46bfa2;
+}
+
+/*****************/
+/* FOOTER STYLES */
+/*****************/
+
+/**********/
+/* COMMON */
+/**********/
+
+.content {
+    width: 1000px;
+    margin: 0px auto;
+}
+.content:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.left { float: left; }
+.center { margin: 0px auto; }
+.right { float: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.half { float: left; width: 50%; padding: 0px; margin: 0px; }
+.third { float: left; width: 33%; padding: 0px; margin: 0px; }
+.two-third { float: left; width: 67%; padding: 0px; margin: 0px; }
+.white { color: #fafafa; }
+.black { color: #090909; }
