@@ -1,7 +1,7 @@
 <div id="header">
     <div class="content">
         <div id="logo-wrapper" class="half">
-            <img id="logo" alt="Yumi Kim" src="assets/img/YumiKim.png">
+            <a href="index.php"><img id="logo" alt="Yumi Kim" src="assets/img/YumiKim.png"></a>
         </div>
         <div class="half text-right">
             <ul id="nav">

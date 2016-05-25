@@ -3,7 +3,7 @@
 
 <?php require_once("build/head.php"); ?>
 
-<BODY>
+<BODY class="bg-nostalgia">
 
 <?php require_once("build/header.php"); ?>
 
@@ -31,7 +31,7 @@
             <div id="three-d" class="project"><a href="3d.php">
                 <div class="project-desc">
                     <h1>Experimental 3D</h1>
-                    <p>explooratory 3D renderings from various projects</p>
+                    <p>exploratory 3D renderings from various projects</p>
                 </div>
             </a></div>
         </div>

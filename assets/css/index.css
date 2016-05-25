@@ -26,6 +26,16 @@
     padding: 0px;
     text-decoration: none;
     color: #fafafa;
+    background-color: rgba(0,0,0,0);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+}
+.project a:hover {
+    background-color: rgba(0,0,0,0.5);
+    opacity: 1;
 }
 .project-desc {
     position: relative;

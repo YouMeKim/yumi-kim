@@ -7,4 +7,5 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <?php require_once("analyticstracking.php"); ?>
 </HEAD>
