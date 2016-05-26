@@ -5,8 +5,8 @@
         </div>
         <div class="half text-right">
             <ul id="nav">
-                <li><a href="index.php#">WORK</a></li>
-                <li><a href="index.php#about">ABOUT</a></li>
+                <li><a href="index.php#work">WORK</a></li>
+                <li><a href="index.php#">ABOUT</a></li>
             </ul>
         </div>
     </div>

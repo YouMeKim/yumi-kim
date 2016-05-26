@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <HTML>
-
+<HEAD>
 <?php require_once("build/head.php"); ?>
-
+</HEAD>
 <BODY class="bg-fridge">
 
 <?php require_once("build/header.php"); ?>

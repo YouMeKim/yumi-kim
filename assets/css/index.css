@@ -1,3 +1,40 @@
+/****************/
+/* ABOUT STYLES */
+/****************/
+#about {
+    width: 100%;
+    margin: 0px;
+}
+#about-content {
+    height: 400px;
+    padding: 50px;
+}
+#about-content h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    color: #fafafa;
+}
+#about-content p {
+    margin: 0px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+    color: #fafafa;
+}
+#arrow {
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    text-align: center;
+    color: #fafafa;
+}
+
 /***************/
 /* WORK STYLES */
 /***************/
@@ -58,34 +95,14 @@
 }
 
 #beam-beats {
-    background-image: url('../img/projects/beam-beats/thumbnail.png');
+    background-image: url('../projects/beam-beats/thumbnail.png');
 }
 #my-courses {
-    background-image: url('../img/projects/my-courses/thumbnail.png');
+    background-image: url('../projects/my-courses/thumbnail.png');
 }
 #fridge {
-    background-image: url('../img/projects/fridge/thumbnail.png');
+    background-image: url('../projects/fridge/thumbnail.png');
 }
 #three-d {
-    background-image: url('../img/projects/3d/thumbnail.png');
-}
-
-/****************/
-/* ABOUT STYLES */
-/****************/
-#about {
-    width: 100%;
-    margin: 0px;
-}
-#about-content {
-    height: 400px;
-    padding: 50px;
-}
-#about-content h1 {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-weight: 800;
-    font-size: 100px;
-    color: #fafafa;
+    background-image: url('../projects/3d/thumbnail.png');
 }

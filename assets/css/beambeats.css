@@ -1,0 +1,10 @@
+.vis-example {
+	float: left;
+	width: 300px;
+	margin: 20px 0px 20px 20px;
+	padding: 10px;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+}
+.first-vis-example {
+	margin: 20px 0px;
+}
