@@ -116,6 +116,31 @@ body {
     font-size: 20px;
 }
 
+/************/
+/* PROJECTS */
+/************/
+
+.project-title {
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+.project-subtitle {
+    font-weight: 200;
+}
+.deck-button {
+    display: block;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #46bfa2;
+    color: #fafafa;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.deck-button:hover { color: #fafafa; }
+
 /**********/
 /* COMMON */
 /**********/
@@ -135,6 +160,7 @@ section {
     height: 0;
     clear: both;
 }
+.tall { height: 400px; }
 .left { float: left; }
 .center { margin: 0px auto; left: 0px; right: 0px; }
 .right { float: right; }
@@ -157,6 +183,9 @@ section {
 .bg-3d { background-image: url('../projects/3d/bg.jpg'); }
 .bg-grid { background-image: url('../img/grid.png'); }
 .bg-white { background-color: #fafafa; }
+.bg-grey-light { background-color: #dedede; }
+.bg-grey { background-color: #909090; }
+.bg-grey-dark { background-color: #656565; }
 .bg-black { background-color: #090909; }
 .bg-teal { background-color: #46bfa2; }
 .overlay-white { background-color: rgba(255,255,255,0.5); }

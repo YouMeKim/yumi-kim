@@ -2,6 +2,7 @@
 <HTML>
 <HEAD>
 <?php require_once("build/head.php"); ?>
+<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </HEAD>
 <BODY class="bg-city">
 
@@ -25,22 +26,25 @@
                     <p>interactive installation</p>
                 </div>
             </a></div>
-            <div id="my-courses" class="project"><a href="mycourses.php">
+            <div id="my-courses" class="project"><!-- <a href="mycourses.php"> --><a>
                 <div class="project-desc">
                     <h1>MyCourses Redesign</h1>
-                    <p>redesign of the myCourses web application</p>
+                    <!-- <p>redesign of the myCourses web application</p> -->
+                    <p>coming soon</p>
                 </div>
             </a></div>
-            <div id="fridge" class="project"><a href="fridge.php">
+            <div id="fridge" class="project"><!-- <a href="fridge.php"> --><a>
                 <div class="project-desc">
                     <h1>Fridge UI</h1>
-                    <p>user interface for on-fridge display</p>
+                    <!-- <p>user interface for on-fridge display</p> -->
+                    <p>coming soon</p>
                 </div>
             </a></div>
-            <div id="three-d" class="project"><a href="3d.php">
+            <div id="three-d" class="project"><!-- <a href="3d.php"> --><a>
                 <div class="project-desc">
                     <h1>Experimental 3D</h1>
-                    <p>exploratory 3D renderings from various projects</p>
+                    <!-- <p>exploratory 3D renderings from various projects</p> -->
+                    <p>coming soon</p>
                 </div>
             </a></div>
         </div>

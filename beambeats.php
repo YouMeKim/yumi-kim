@@ -10,18 +10,26 @@
 
 <div id="wrapper">
     <section id="overview">
-        <div class="content">
-            <h1>Beam Beats</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae quam id sem porttitor imperdiet. Ut eu lectus nisl. Maecenas eu diam interdum, iaculis turpis non, varius tellus. Mauris commodo quam at odio congue mollis. Praesent vehicula suscipit ex, non aliquam lacus commodo id. Curabitur sed pulvinar lacus, vitae scelerisque sem. Quisque a felis eu felis lacinia euismod. Proin lacus ligula, rhoncus vel dolor a, euismod mollis nunc. Sed nec lacinia nunc. Nam consequat eros magna, a tempor dolor pellentesque et. Praesent a lorem in dolor porttitor pulvinar. Aliquam erat volutpat. Mauris sit amet tellus vitae arcu gravida vulputate. Phasellus libero metus, fringilla vel est ut, sodales posuere dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <div class="content tall">
+            <div class="vertical-align center">
+                <h1 class="project-title white text-center">Beam Beats</h1>
+                <p class="project-subtitle white text-center">interactive installation</p>
+                <a class="deck-button" target="_blank" href="assets/projects/beam-beats/deck.pdf">view deck</a>
+            </div>
         </div>
     </section>
     <section id="branding" class="bg-white">
         <div class="content">
             <h1>Branding</h1>
+            <img id="moodboard" alt="moodboard" src="assets/projects/beam-beats/moodboard.png">
+            <img class="fourth-first" alt="logo1" src="assets/projects/beam-beats/logo1.png">
+            <img class="fourth" alt="logo2" src="assets/projects/beam-beats/logo2.png">
+            <img class="fourth" alt="logo3" src="assets/projects/beam-beats/logo3.png">
+            <img class="fourth" alt="logo4" src="assets/projects/beam-beats/logo4.png">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae quam id sem porttitor imperdiet. Ut eu lectus nisl. Maecenas eu diam interdum, iaculis turpis non, varius tellus. Mauris commodo quam at odio congue mollis. Praesent vehicula suscipit ex, non aliquam lacus commodo id. Curabitur sed pulvinar lacus, vitae scelerisque sem. Quisque a felis eu felis lacinia euismod. Proin lacus ligula, rhoncus vel dolor a, euismod mollis nunc. Sed nec lacinia nunc. Nam consequat eros magna, a tempor dolor pellentesque et. Praesent a lorem in dolor porttitor pulvinar. Aliquam erat volutpat. Mauris sit amet tellus vitae arcu gravida vulputate. Phasellus libero metus, fringilla vel est ut, sodales posuere dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </div>
     </section>
-    <section id="visualization" class="bg-white">
+    <section id="visualization" class="bg-grey-light">
         <div class="content">
             <h1>Visualization</h1>
             <p>After many brainstorming and sketching sessions, we decided that our favorite solution was a circular visualization that was otherwise literal in it's translation. We used the note, octave, beat, and duration and wrapped the timeline around a circle so when complete, you can't tell where it starts or ends.</p>
