@@ -2,6 +2,7 @@
 <HTML>
 <HEAD>
 <?php require_once("build/head.php"); ?>
+<link rel="stylesheet" type="text/css" href="assets/css/projects.css">
 </HEAD>
 <BODY class="bg-mycourses">
 
