@@ -50,7 +50,7 @@
             </div>
         </div>
     </section>
-    <section id="physical" class="bg-grey-dark white">
+    <section id="physical" class="bg-grey-light">
         <div class="content">
             <h1>Physical Instrument</h1>
             <div class="half-first">
