@@ -26,10 +26,24 @@
                     <p>interactive installation</p>
                 </div>
             </a></div>
+            <div id="ist" class="project"><!-- <a href="ist.php"> --><a>
+                <div class="project-desc">
+                    <h1>IST Redesign</h1>
+                    <!-- <p>redesign of the RIT IST website</p> -->
+                    <p>coming soon</p>
+                </div>
+            </a></div>
             <div id="my-courses" class="project"><a href="mycourses.php">
                 <div class="project-desc">
                     <h1>MyCourses Redesign</h1>
                     <p>redesign of the myCourses web application</p>
+                </div>
+            </a></div>
+            <div id="go-fish" class="project"><!-- <a href="gofish.php"> --><a>
+                <div class="project-desc">
+                    <h1>Go Fish</h1>
+                    <!-- <p>go fish card game</p> -->
+                    <p>coming soon</p>
                 </div>
             </a></div>
             <div id="fridge" class="project"><!-- <a href="fridge.php"> --><a>
