@@ -26,11 +26,10 @@
                     <p>interactive installation</p>
                 </div>
             </a></div>
-            <div id="ist" class="project"><!-- <a href="ist.php"> --><a>
+            <div id="ist" class="project"><a href="ist.php">
                 <div class="project-desc">
-                    <h1>IST Redesign</h1>
-                    <!-- <p>redesign of the RIT IST website</p> -->
-                    <p>coming soon</p>
+                    <h1>RIT IST Website Redesign</h1>
+                    <p>redesign of the RIT IST website</p>
                 </div>
             </a></div>
             <div id="my-courses" class="project"><a href="mycourses.php">

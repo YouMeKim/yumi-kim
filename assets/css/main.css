@@ -154,7 +154,9 @@ section {
 .bg-nostalgia { background-image: url('../img/background.png'); }
 .bg-city { background-image: url('../img/bg-city.jpg'); }
 .bg-beambeats { background-image: url('../projects/beam-beats/bg.jpg'); }
+.bg-ist { background-image: url('../projects/ist/bg.jpg'); }
 .bg-mycourses { background-image: url('../projects/my-courses/bg.jpg'); }
+.bg-gofish { background-image: url('../projects/gofish/bg.jpg'); }
 .bg-fridge { background-image: url('../projects/fridge/bg.jpg'); }
 .bg-3d { background-image: url('../projects/3d/bg.jpg'); }
 .bg-grid { background-image: url('../img/grid.png'); }

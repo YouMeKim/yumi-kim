@@ -4,7 +4,7 @@
 <?php require_once("build/head.php"); ?>
 <link rel="stylesheet" type="text/css" href="assets/css/projects.css">
 </HEAD>
-<BODY class="bg-mycourses">
+<BODY class="bg-ist">
 
 <?php require_once("build/header.php"); ?>
 
@@ -12,10 +12,10 @@
     <section id="introduction">
         <div class="content tall">
             <div class="vertical-align center">
-                <h1 class="project-title white text-center">MyCourses Redesign</h1>
-                <p class="project-subtitle white text-center">redesign of the myCourses web application</p>
+                <h1 class="project-title white text-center">RIT IST Website Redesign</h1>
+                <p class="project-subtitle white text-center">redesign of the RIT IST website</p>
                 <div class="project-links">
-                    <a target="_blank" href="assets/projects/my-courses/deck.pdf"><div class="deck-button">deck</div></a> <a target="_blank" href="https://projects.invisionapp.com/share/VA5DOYKJC#/screens/121024608"><div class="deck-button">invision</div></a>
+                    <a target="_blank" href="assets/projects/my-courses/deck.pdf"><div class="deck-button">deck</div></a>
                 </div>
             </div>
         </div>
