@@ -94,15 +94,9 @@
     font-size: 14px;
 }
 
-#beam-beats {
-    background-image: url('../projects/beam-beats/thumbnail.png');
-}
-#my-courses {
-    background-image: url('../projects/my-courses/thumbnail.png');
-}
-#fridge {
-    background-image: url('../projects/fridge/thumbnail.png');
-}
-#three-d {
-    background-image: url('../projects/3d/thumbnail.png');
-}
+#beam-beats { background-image: url('../projects/beam-beats/thumbnail.png'); }
+#ist { background-image: url('../projects/ist/thumbnail.png'); }
+#my-courses { background-image: url('../projects/my-courses/thumbnail.png'); }
+#go-fish { background-image: url('../projects/gofish/thumbnail.png'); }
+#fridge { background-image: url('../projects/fridge/thumbnail.png'); }
+#three-d { background-image: url('../projects/3d/thumbnail.png'); }

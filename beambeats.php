@@ -16,7 +16,7 @@
                 <h1 class="project-title white text-center">Beam Beats</h1>
                 <p class="project-subtitle white text-center">interactive installation</p>
                 <div class="project-links">
-                    <a target="_blank" href="assets/projects/beam-beats/deck.pdf"><div class="deck-button">deck</div></a> <a target="_blank" href="http://beambeats.cias.rit.edu/visualization/"><div class="deck-button">website</div></a> <a target="_blank" href="http://beambeats.cias.rit.edu/"><div class="deck-button">promotional website</div></a> <a target="_blank" href="http://bandthelazers.tumblr.com/"><div class="deck-button">process blog</div></a> <a target="_blank" href="https://github.com/YouMeKim/beam-beats"><div class="deck-button">github</div></a>
+                    <a href="assets/projects/beam-beats/deck.pdf"><div class="deck-button">deck</div></a> <a href="http://beambeats.cias.rit.edu/visualization/"><div class="deck-button">website</div></a> <a href="http://beambeats.cias.rit.edu/"><div class="deck-button">promotional website</div></a> <a href="http://bandthelazers.tumblr.com/"><div class="deck-button">process blog</div></a> <a href="https://github.com/YouMeKim/beam-beats"><div class="deck-button">github</div></a>
                 </div>
             </div>
         </div>

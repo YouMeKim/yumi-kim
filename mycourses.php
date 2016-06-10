@@ -15,7 +15,7 @@
                 <h1 class="project-title white text-center">MyCourses Redesign</h1>
                 <p class="project-subtitle white text-center">redesign of the myCourses web application</p>
                 <div class="project-links">
-                    <a target="_blank" href="assets/projects/my-courses/deck.pdf"><div class="deck-button">deck</div></a> <a target="_blank" href="https://projects.invisionapp.com/share/VA5DOYKJC#/screens/121024608"><div class="deck-button">invision</div></a>
+                    <a href="assets/projects/my-courses/deck.pdf"><div class="deck-button">deck</div></a> <a href="https://projects.invisionapp.com/share/VA5DOYKJC#/screens/121024608"><div class="deck-button">invision</div></a>
                 </div>
             </div>
         </div>

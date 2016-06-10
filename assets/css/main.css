@@ -135,6 +135,9 @@ section {
     height: 0;
     clear: both;
 }
+.inline { display: inline; }
+.block { display: block; }
+.inline-block { display: inline-block; }
 .tall { height: 500px; }
 .left { float: left; }
 .center { margin: 0px auto; left: 0px; right: 0px; }
@@ -168,5 +171,6 @@ section {
 .bg-teal { background-color: #46bfa2; }
 .overlay-white { background-color: rgba(255,255,255,0.5); }
 .overlay-black { background-color: rgba(0,0,0,0.5); }
+.overlay-blacker { background-color: rgba(0,0,0,0.7); }
 a { color: #46bfa2; text-decoration: none; font-weight: 400; }
 a:hover { color: rgba(70,191,162,0.8) }

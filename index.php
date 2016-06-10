@@ -32,10 +32,11 @@
                     <p>redesign of the RIT IST website</p>
                 </div>
             </a></div>
-            <div id="my-courses" class="project"><a href="mycourses.php">
+            <div id="my-courses" class="project"><!-- <a href="mycourses.php"> --><a>
                 <div class="project-desc">
                     <h1>MyCourses Redesign</h1>
-                    <p>redesign of the myCourses web application</p>
+                    <!-- <p>redesign of the myCourses web application</p> -->
+                    <p>coming soon</p>
                 </div>
             </a></div>
             <div id="go-fish" class="project"><!-- <a href="gofish.php"> --><a>
