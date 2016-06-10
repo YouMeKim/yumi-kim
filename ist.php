@@ -30,7 +30,7 @@
     <section id="api" class="overlay-blacker white">
         <div class="content">
             <h1>API</h1>
-            <p>The <a target="_blank" href="">IST Site API</a> is a comprehensive </p>
+            <p>The <a target="_blank" href="">IST Site API</a> is a comprehensive API consisting of all information needed to recreate the IST department website.</p>
             <div class="fourth-first">
                 <h3><a target="_blank" href="http://ist.rit.edu/api/about/">About</a></h3>
                 <p>A short introduction to the site and its purpose.</p>
@@ -49,19 +49,19 @@
             </div>
             <div class="fourth-first">
                 <h3><a target="_blank" href="http://ist.rit.edu/api/people/">People</a></h3>
-                <p>List of all faculty and staff employed by the department.</p>
+                <p>List of all faculty and staff employed by the IST department.</p>
             </div>
             <div class="fourth">
                 <h3><a target="_blank" href="http://ist.rit.edu/api/research/">Research</a></h3>
-                <p>List of research papers authored by staff and faculty from the IST department. Sortable by interest or author.</p>
+                <p>List of research papers authored by staff and faculty from the IST department.</p>
             </div>
             <div class="fourth">
                 <h3><a target="_blank" href="http://ist.rit.edu/api/resources/">Resources</a></h3>
-                <p>List of resources available to students on various topics.</p>
+                <p>List of resources available to students that do not fall within other categories.</p>
             </div>
             <div class="fourth">
                 <h3><a target="_blank" href="http://ist.rit.edu/api/news/">News</a></h3>
-                <p>Recent news and posts from the IST department at RIT.</p>
+                <p>Recent news and posts from the IST department at RIT. Sorted by year.</p>
             </div>
             <div class="fourth-first">
                 <h3><a target="_blank" href="http://ist.rit.edu/api/footer/">Footer</a></h3>
