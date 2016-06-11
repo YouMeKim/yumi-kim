@@ -139,6 +139,7 @@ section {
 .block { display: block; }
 .inline-block { display: inline-block; }
 .tall { height: 500px; }
+.taller { height: 700px; }
 .left { float: left; }
 .center { margin: 0px auto; left: 0px; right: 0px; }
 .right { float: right; }

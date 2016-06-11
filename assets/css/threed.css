@@ -1,0 +1,14 @@
+.threed-project {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.threed-project h1 {
+    padding: 0px;
+    margin: 0px;
+}
+.bg-rockin { background-image: url('../projects/3d/rockinTunesGiraffe.jpg'); }
+.bg-shaving { background-image: url('../projects/3d/shavingKit.jpg'); }
+.bg-flashlight { background-image: url('../projects/3d/flashlight.jpg'); }

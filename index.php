@@ -53,11 +53,10 @@
                     <p>coming soon</p>
                 </div>
             </a></div>
-            <div id="three-d" class="project"><!-- <a href="3d.php"> --><a>
+            <div id="three-d" class="project"><a href="3d.php">
                 <div class="project-desc">
                     <h1>Experimental 3D</h1>
-                    <!-- <p>exploratory 3D renderings from various projects</p> -->
-                    <p>coming soon</p>
+                    <p>exploratory 3D renderings from various projects</p>
                 </div>
             </a></div>
         </div>
