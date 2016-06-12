@@ -46,11 +46,11 @@
                     <p>coming soon</p>
                 </div>
             </a></div>
-            <div id="fridge" class="project"><!-- <a href="fridge.php"> --><a>
+            <!--
+            <div id="fridge" class="project"><a href="fridge.php">
                 <div class="project-desc">
                     <h1>Fridge UI</h1>
-                    <!-- <p>user interface for on-fridge display</p> -->
-                    <p>coming soon</p>
+                    <p>user interface for on-fridge display</p>
                 </div>
             </a></div>
             <div id="three-d" class="project"><a href="3d.php">
@@ -59,6 +59,7 @@
                     <p>exploratory 3D renderings from various projects</p>
                 </div>
             </a></div>
+            -->
         </div>
     </section>
 </div>
