@@ -16,7 +16,7 @@
                 <h1 class="project-title white text-center">Beam Beats</h1>
                 <p class="project-subtitle white text-center">interactive installation</p>
                 <div class="project-links">
-                    <a href="assets/projects/beam-beats/deck.pdf"><div class="deck-button">deck</div></a> <a href="http://beambeats.cias.rit.edu/visualization/"><div class="deck-button">website</div></a> <a href="http://beambeats.cias.rit.edu/"><div class="deck-button">promotional website</div></a> <a href="http://bandthelazers.tumblr.com/"><div class="deck-button">process blog</div></a> <a href="https://github.com/YouMeKim/beam-beats"><div class="deck-button">github</div></a>
+                    <a href="assets/projects/beam-beats/deck.pdf"><div class="deck-button">deck</div></a> <a href="http://beambeats.cias.rit.edu/visualization/"><div class="deck-button">website</div></a> <a href="http://beambeats.cias.rit.edu/"><div class="deck-button">promotional website</div></a> <a href="http://bandthelazers.tumblr.com/"><div class="deck-button">process blog</div></a> <a href="https://github.com/YouMeKim/beam-beats"><div class="deck-button">github</div></a><!-- <a href="https://github.com/brendan-w/beam-beats"><div class="deck-button">github (hardware)</div></a> <a href="https://github.com/nickMinnoe/BeamBeatsVis"><div class="deck-button">github (visualization)</div></a> -->
                 </div>
             </div>
         </div>
@@ -54,18 +54,35 @@
         <div class="content">
             <h1>Website</h1>
             <p>Once users complete their Beam Beats experience, they can visit our website to view their creations. Using the ID number provided to them during their visit, they can search for their visualization and edit it using a variety of filters. Once they are complete editing their images, they are able to email their creations to themselves.</p>
-            <h4>Database</h4>
+            <h3>Technologies</h3>
+            <p>The main website is primarily written in HTML, CSS, and JavaScript. We decided to utilize JavaScript as the main scripting language for this website due to it's need to display real-time data as it's being served to the database. In addition, I was hoping to experiment more with front-end technologies.</p>
+            <p>Although most scripts are written in JavaScript, there are 2 PHP services that were created for the website:</p>
+            <ol>
+                <li><strong><a href="https://github.com/YouMeKim/beam-beats/blob/master/email.php">Email</a></strong> – Send formatted HTML email with creation to user</li>
+                <li><strong><a href="https://github.com/YouMeKim/beam-beats/blob/master/acceptVis.php">Accept Visualization</a></strong> – Accept Base64 string POST data which is sent from the Processing script</li>
+            </ol>
+            <h3>Linking the Installation to the Website</h3>
+            <p>Once users are finished creating their visualization, 5 images are sent to the server: an overview visualization and four different images highlighting specific colors. All the data is sent to the <a href="https://github.com/YouMeKim/beam-beats/blob/master/acceptVis.php">Accept Visualization</a> PHP script as POST data, written in base64 string. These images are then converted to transparent PNGs and saved to the server. The database only contains the visualization ID and their respective file names for reference.</p>
+            <h3>API</h3>
+            <p>During the creation of the website, we ran into a couple issues:</p>
+            <ol>
+                <li>We needed a way to live-update data as they were fed to the database from our installation.</li>
+                <li>We needed a system to keep track of current IDs to be able to assign incoming users of their ID.</li>
+            </ol>
+            <p>To solve these issues, I decided to implement a quick API to access all visualizations on the database, which can be accessed <a href="http://beambeats.cias.rit.edu/visualization/visualizations.php">here</a>. The API returns an array of JSON objects containing information about each visualization such as ID and file name. This way, we were able to keep track of what current ID we were serving during our exhibition at the Imagine RIT festival. In addition, we were able to update the list of visualizations when the start button is clicked on the website.</p>
+            <h3>Database</h3>
+            <p>During the early stages of development, we explored several DBMS options. Due to our document focused nature, we initially opted for MongoDB, and although we wanted to utlize MongoDB for our database, due to time constraints and lack of expertise, we ended up sticking with MySQL.</p>
             <div class="half-first">
                 <img style="width:100%;" alt="database" src="assets/projects/beam-beats/database.png">
             </div>
             <div class="half">
-                <p>The MySQL database consists of three tables.</p>
-                <p>Images are stored on the server, which is then referenced by the database via a relative url path.</p>
+                <p>After several iterations, we finalized the database design and decided on three tables:</p>
                 <p>
                     <strong>visualization</strong> (<u>id</u>, name, imageall, imagepur, imagered, imageyel, imageblu, datecreated, datemodified)<br>
                     <strong>creation</strong> (<u>id</u>, originalid, image, datecreated, datemodified)<br>
                     <strong>history</strong> (<u>id</u>, creationid, datesent, email)<br>
                 </p>
+                <p>Images are stored on the server, which is then referenced by the database via a relative url path.</p>
             </div>
         </div>
     </section>
