@@ -50,16 +50,23 @@
             </div>
         </div>
     </section>
-    <section id="physical" class="bg-grey-light">
+    <section id="website" class="bg-grey-light">
         <div class="content">
-            <h1>Physical Instrument</h1>
+            <h1>Website</h1>
+            <p>Once users complete their Beam Beats experience, they can visit our website to view their creations. Using the ID number provided to them during their visit, they can search for their visualization and edit it using a variety of filters. Once they are complete editing their images, they are able to email their creations to themselves.</p>
+            <h4>Database</h4>
             <div class="half-first">
-                <img style="width:100%; height:318px;" alt="physical instrument" src="assets/projects/beam-beats/physical1.jpg">
+                <img style="width:100%;" alt="database" src="assets/projects/beam-beats/database.png">
             </div>
             <div class="half">
-                <img style="width:100%; height:318px;" alt="physical instrument" src="assets/projects/beam-beats/physical2.jpg">
+                <p>The MySQL database consists of three tables.</p>
+                <p>Images are stored on the server, which is then referenced by the database via a relative url path.</p>
+                <p>
+                    <strong>visualization</strong> (<u>id</u>, name, imageall, imagepur, imagered, imageyel, imageblu, datecreated, datemodified)<br>
+                    <strong>creation</strong> (<u>id</u>, originalid, image, datecreated, datemodified)<br>
+                    <strong>history</strong> (<u>id</u>, creationid, datesent, email)<br>
+                </p>
             </div>
-            <p style="margin-top: 370px;">After considering various instruments, our team agreed on implementing a guitar. We decided to utilize light to create the strings and allow users to interact with the light to create music. We utilized 2 short throw projects and mirrors to create 4 rays of light in different colors. When users interact with the light, a computer vision system tracks the location of their hand and plays the proper note.</p>
         </div>
     </section>
     <section id="branding" class="bg-white">
@@ -105,23 +112,16 @@
             <img class="vis-example" alt="visualzation example" src="assets/projects/beam-beats/song-wannabe.jpg">
         </div>
     </section>
-    <section id="website" class="bg-white">
+    <section id="physical" class="bg-white">
         <div class="content">
-            <h1>Website</h1>
-            <p>Once users complete their Beam Beats experience, they can visit our website to view their creations. Using the ID number provided to them during their visit, they can search for their visualization and edit it using a variety of filters. Once they are complete editing their images, they are able to email their creations to themselves.</p>
-            <h4>Database</h4>
+            <h1>Physical Instrument</h1>
             <div class="half-first">
-                <img style="width:100%;" alt="database" src="assets/projects/beam-beats/database.png">
+                <img style="width:100%; height:318px;" alt="physical instrument" src="assets/projects/beam-beats/physical1.jpg">
             </div>
             <div class="half">
-                <p>The MySQL database consists of three tables.</p>
-                <p>Images are stored on the server, which is then referenced by the database via a relative url path.</p>
-                <p>
-                    <strong>visualization</strong> (<u>id</u>, name, imageall, imagepur, imagered, imageyel, imageblu, datecreated, datemodified)<br>
-                    <strong>creation</strong> (<u>id</u>, originalid, image, datecreated, datemodified)<br>
-                    <strong>history</strong> (<u>id</u>, creationid, datesent, email)<br>
-                </p>
+                <img style="width:100%; height:318px;" alt="physical instrument" src="assets/projects/beam-beats/physical2.jpg">
             </div>
+            <p style="margin-top: 370px;">After considering various instruments, our team agreed on implementing a guitar. We decided to utilize light to create the strings and allow users to interact with the light to create music. We utilized 2 short throw projects and mirrors to create 4 rays of light in different colors. When users interact with the light, a computer vision system tracks the location of their hand and plays the proper note.</p>
         </div>
     </section>
 </div>
